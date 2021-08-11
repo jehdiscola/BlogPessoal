@@ -48,6 +48,18 @@ public class Usuario {
 	private List<Postagem> postagem;
 
 
+	public Usuario(long id, String nome, String usuario, String senha, LocalDate dataNascimento) {
+		this.id = id;
+		this.nome = nome;
+		this.usuario = usuario;
+		this.senha = senha;
+		this.dataNascimento = dataNascimento;
+	}
+
+	public Usuario() {	}
+
+
+
 	public long getId() {
 		return this.id;
 	}
